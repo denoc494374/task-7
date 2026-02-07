@@ -67,6 +67,17 @@ body.dark-mode {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
+.switch-text {
+  font-size: 12px;
+  line-height: 1;
+  color: var(--white-color);
+  margin-bottom: 4px;
+}
+
+body.dark-mode .switch-text {
+  color: var(--dark-text);
+}
+
 
 body.dark-mode .card {
   background-color: #2a2a2a !important;
